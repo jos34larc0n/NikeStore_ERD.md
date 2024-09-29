@@ -9,11 +9,11 @@ erDiagram
     }
     
     CUSTOMERS {
-        customer_id 
-        first_name
-        last_name
-        email
-        phone
+         customer_id 
+         first_name
+         last_name
+         email
+         phone
     }
 
     SALES {
