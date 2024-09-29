@@ -1,5 +1,4 @@
 ```mermaid
-```mermaid
 erDiagram
     %% Entities and attributes
     PRODUCTS {
