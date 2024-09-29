@@ -2,14 +2,14 @@
 erDiagram
     %% Entities and attributes
     PRODUCTS {
-         product_id PK
+         product_id 
          model
          brand
          price
     }
     
     CUSTOMERS {
-        customer_id PK
+        customer_id 
         first_name
         last_name
         email
@@ -17,14 +17,14 @@ erDiagram
     }
 
     SALES {
-         sale_id PK
-         product_id FK
-         customer_id FK
+         sale_id 
+         product_id 
+         customer_id 
     }
 
     INVENTORY {
-        inventory_id PK
-        product_id FK
+        inventory_id 
+        product_id 
         stock_level
     }
 
